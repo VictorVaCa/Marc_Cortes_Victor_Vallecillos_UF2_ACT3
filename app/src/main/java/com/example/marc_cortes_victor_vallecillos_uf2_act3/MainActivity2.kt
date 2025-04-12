@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.motion.widget.MotionLayout
 
-class SecondActivity : AppCompatActivity() {
+class MainActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
@@ -15,7 +15,7 @@ class SecondActivity : AppCompatActivity() {
         motionLayout.setTransitionListener(object : MotionLayout.TransitionListener {
             override fun onTransitionCompleted(layout: MotionLayout?, currentId: Int) {
                 if (currentId == R.id.end) {
-                    val intent = Intent(this@SecondActivity, ThirdActivity::class.java)
+                    val intent = Intent(this@MainActivity2, ThirdActivity::class.java)
                     startActivity(intent)
                 }
             }

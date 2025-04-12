@@ -6,7 +6,7 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.constraintlayout.widget.ConstraintSet
 import android.widget.Button
 
-class ThirdActivity : AppCompatActivity() {
+class MainActivity3 : AppCompatActivity() {
     private var isLeft = true
 
     override fun onCreate(savedInstanceState: Bundle?) {
