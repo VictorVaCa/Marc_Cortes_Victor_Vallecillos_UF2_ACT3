@@ -15,7 +15,7 @@ class MainActivity2 : AppCompatActivity() {
         motionLayout.setTransitionListener(object : MotionLayout.TransitionListener {
             override fun onTransitionCompleted(layout: MotionLayout?, currentId: Int) {
                 if (currentId == R.id.end) {
-                    val intent = Intent(this@MainActivity2, ThirdActivity::class.java)
+                    val intent = Intent(this@MainActivity2, MainActivity3::class.java)
                     startActivity(intent)
                 }
             }

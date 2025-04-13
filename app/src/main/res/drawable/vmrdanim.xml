@@ -1,0 +1,11 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/vmrd1" android:duration="100"/>
+    <item android:drawable="@drawable/vmrd2" android:duration="100"/>
+    <item android:drawable="@drawable/vmrd3" android:duration="100"/>
+    <item android:drawable="@drawable/vmrd4" android:duration="100"/>
+    <item android:drawable="@drawable/vmrd5" android:duration="100"/>
+    <item android:drawable="@drawable/vmrd6" android:duration="100"/>
+    <item android:drawable="@drawable/vmrd7" android:duration="100"/>
+    <item android:drawable="@drawable/vmrd8" android:duration="100"/>
+</animation-list>
